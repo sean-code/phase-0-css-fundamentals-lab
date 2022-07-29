@@ -3,3 +3,35 @@ body {
   height: 100%;
   margin: 0;
 }
+
+
+h1{
+  text-align: center;
+}
+nav{
+  text-align: center;
+}
+.navbar > a{
+  text-decoration: none;
+  justify-content: space-around;
+  background-color: rgba(122, 122, 122, 0.825);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+figure{
+  position: center;
+}
+figcaption{
+  text-align: center;
+  font-size:smaller;
+  
+}
+#featured-property{
+  text-align: center;
+}
+#details{
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: red;
+}
